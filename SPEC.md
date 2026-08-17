@@ -1,6 +1,6 @@
 # Personal Brain — Spec
 
-Owner: Chandan Agarwal
+Owner: Chandan Agarwal /n
 Assignment: SkillLayer SDE I take-home
 
 ## 1. Goal
