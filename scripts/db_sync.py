@@ -1,24 +1,4 @@
-﻿"""
-Stage 4.5 -- Populate a simple, app-queryable table in Supabase.
-
-Run locally:
-    python scripts/db_sync.py
-
-WHY THIS EXISTS (see SPEC.md architecture notes):
-GBrain own Postgres schema (chunks, embeddings, entity graph) is
-internal machinery not meant for hand-written SQL, and Vercel Python
-functions can't shell out to GBrain Bun-based CLI at request time
-anyway. So this script writes a second, simple table -- brain_pages --
-into the SAME Supabase database that GBrain uses. GBrain own import
-(already run via gbrain migrate --to supabase) remains the actual
-required-by-the-assignment storage. This table is purely a practical
-read-path for the deployed FastAPI app search tools.
-
-Requires DATABASE_URL env var (the same Supabase connection string used
-for gbrain migrate --to supabase), and psycopg2 installed.
-"""
-
-import glob
+﻿import glob
 import os
 import re
 

@@ -1,13 +1,4 @@
-﻿"""
-Stage 5.2 -- Gemini tool-calling reasoning loop.
-
-Run locally to test:
-    python scripts/gemini_chat_test.py "What jobs have I applied to?"
-
-Requires GEMINI_API_KEY and DATABASE_URL env vars.
-"""
-
-import sys
+﻿import sys
 import json
 import time
 import re

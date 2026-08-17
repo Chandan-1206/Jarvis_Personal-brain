@@ -4,8 +4,7 @@ Stage 5.1 -- Search tools over brain_pages (Supabase).
 These are plain Python functions that query the brain_pages table
 (populated by scripts/db_sync.py). They are NOT tied to any LLM SDK --
 Stage 5.2 wraps them as Gemini function-calling tools.
-
-Requires DATABASE_URL env var.
+Runs locally only
 """
 
 import json

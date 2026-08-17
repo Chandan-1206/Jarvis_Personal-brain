@@ -1,12 +1,4 @@
-﻿"""
-Search tools over brain_pages (Supabase). Deployed version -- mirrors
-scripts/brain_search.py, kept under api/ so Vercel serverless function
-can import it directly.
-
-Requires DATABASE_URL env var (set in Vercel project settings).
-"""
-
-import os
+﻿import os
 
 import psycopg2
 import psycopg2.extras

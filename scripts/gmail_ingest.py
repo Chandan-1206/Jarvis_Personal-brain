@@ -1,19 +1,4 @@
-﻿"""
-Stage 2.5 -- Gmail -> GBrain page ingest.
-
-Run locally:
-    python scripts/gmail_ingest.py
-
-Fetches messages from personalbraintest@gmail.com and writes each one as
-a GBrain-format markdown page under pages/email/, matching the schema in
-SPEC.md section 4. These files are what `gbrain import` will load in a
-later stage -- this script does NOT touch GBrain or any database, it just
-produces the normalized markdown.
-
-Adjust MAX_MESSAGES if you want more/fewer than the default pulled in.
-"""
-
-import base64
+﻿import base64
 import os
 import re
 
