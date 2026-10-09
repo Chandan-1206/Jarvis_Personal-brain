@@ -207,12 +207,12 @@ seeded data (no fabrication), citing which source(s) it pulled from.
 All queries from §6 tested live against the deployed app, Aug 17 2026:
 
 **Tier 1**
-- "Find the email from Vanisha about the SkillLayer application" → correct, single email, right date/content. ✅
+- "Find the email from Vanisha about the Amazon application" → correct, single email, right date/content. ✅
 - "What files did I edit in Drive this week?" → correctly identified the one file modified this week. ✅
 - "List my unread or unresponded application emails" → listed 6 companies with confirmation-received-no-followup status, plus honestly flagged a borderline case (Army internship invite) as relevant-but-not-a-job-application. ✅
 
 **Tier 2**
-- "What jobs have I applied to, and what's my status on each, including my take-home submission?" → correctly surfaced all 7 companies with accurate individual statuses, AND correctly hedged on the take-home file ("I do not see an email confirming that you have actually sent or submitted this specific file") rather than asserting submission as fact. ✅
+- "What jobs have I applied to, and what's my status on each" → correctly surfaced all 7 companies with accurate individual statuses, AND correctly hedged on the take-home file ("I do not see an email confirming that you have actually sent or submitted this specific file") rather than asserting submission as fact. ✅
 - "Did I ever send Vanisha the contract draft, and did she reply?" → correct filename, date, and accurate paraphrase of her reply content. ✅
 
 All answers grounded in actual seeded data.
