@@ -1,7 +1,6 @@
 # Personal Brain — Spec
 
 Owner: Chandan Agarwal <br>
-Assignment: SkillLayer SDE I take-home
 
 ## 1. Goal
 
@@ -216,5 +215,4 @@ All queries from §6 tested live against the deployed app, Aug 17 2026:
 - "What jobs have I applied to, and what's my status on each, including my take-home submission?" → correctly surfaced all 7 companies with accurate individual statuses, AND correctly hedged on the take-home file ("I do not see an email confirming that you have actually sent or submitted this specific file") rather than asserting submission as fact. ✅
 - "Did I ever send Vanisha the contract draft, and did she reply?" → correct filename, date, and accurate paraphrase of her reply content. ✅
 
-All answers grounded in actual seeded data, no fabrication observed. Both
-tiers fully satisfied per the assignment's acceptance criteria.
+All answers grounded in actual seeded data.
